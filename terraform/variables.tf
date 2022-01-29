@@ -1,7 +1,7 @@
 variable "region" {
     description = "AWS Region to use"
     type = string
-    default = "us-west-2"
+    default = "ap-southeast-2"
 }
 
 variable "environment" {
@@ -19,7 +19,7 @@ variable "name" {
 variable "organization" {
     description = "Github organization to use"
     type = string
-    default = "OpsMonkeys"
+    default = "sudheerpalyam"
 }
 
 variable "circleci_cli_token" {
